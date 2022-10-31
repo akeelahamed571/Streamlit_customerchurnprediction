@@ -89,7 +89,7 @@ with st.sidebar:
 		        else:
 		          diab_diagnosis = 'The person is not churn'
 		        
-		    st.success(diab_diagnosis,data)
+		    st.success(diab_diagnosis)
 
 
 
