@@ -108,7 +108,7 @@ if (selected == 'Diabetes Prediction'):
 		    # creating a button for Prediction
 		    
 		    if st.button('Diabetes Test Result'):
-		        diab_prediction = model.predict(new_df__dummies.tail(2))
+		        diab_prediction = model.predict(new_df__dummies.tail(1))
 		        if (diab_prediction== 1):
 		          diab_diagnosis = 'The person is churning'
 		        else:
