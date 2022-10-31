@@ -10,8 +10,8 @@ from sklearn import metrics
 
 # loading the saved models
 model = pickle.load(open('customer_churn_model.sav', 'rb'))
-file="WA_Fn-UseC_-Telco-Customer-Churn.csv"
-df_1=pd.read_csv(file)
+#file="WA_Fn-UseC_-Telco-Customer-Churn.csv"
+df_1=pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 col=df_1['tenure']
 q = ""
 # sidebar for navigation
